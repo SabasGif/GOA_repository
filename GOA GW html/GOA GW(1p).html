@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Virtual Sport</title>
+    </head>
+    <body>
+        <h1>Registration</h1>
+
+        <form action="succsesmp.html">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" placeholder="enter your name" id="name" required>
+            <br><br>
+            <label for="surname">Surname</label>
+            <br>
+            <input type="text" placeholder="enter your surname" id="surname">
+            <br><br>
+            <lable for="email">Email</lable>
+            <br>
+            <input type="email" placeholder="enter your email" id="email" required>
+            <br><br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" placeholder="enter your password" id="password" required>
+            <br><br>
+            <label for="age">Age</label>
+            <br>
+            <input type="age" placeholder="enter your age" id="age">
+            <br><br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" id="date">
+            <br>
+            <input type="checkbox" id="1checkbox" required>
+            <label for="1checkbox">Do you agree tarms and conditions?</label>
+            <p>Your from:</p>
+            <select>
+                <option>Aisa</option>
+                <option>Africa</option>
+                <option>North America</option>
+                <option>South America</option>
+                <option>Antarctica</option>
+                <option>Europ</option>
+                <option>Australia</option>
+            </select>
+            <br><br>
+            <input type="radio" id="1radio" name="gender" value="male" required >
+            <label for="1radio">Male</label>
+            <br><br>
+            <input type="radio" id="2radio" name="gender" value="female" required>
+            <label for="2radio">Female</label>
+            <br><br>
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
+
+
+
+<!--
+How It Works:
+1.The action="success.html" in the <form> tag sends the user to success.html after they fill out all required fields.
+2.The required attribute forces users to complete the fields before clicking Register.
+3.Clicking Register submits the form and navigates to success.html.
+-->
+
+<!--
+The <html lang="en"> tag is part of the HTML document structure, and it specifies the language of the webpage.
+
+Breaking It Down:
+- <html>: The root element of an HTML page.
+- lang="en": This defines the language of the document as English (en stands for English).
+
+Why Is It Important?:
+1.Helps browsers understand the primary language of the page.
+2.Improves accessibility, especially for screen readers.
+3.Supports search engines in providing better results based on language.
+4.Allows localization, so users with different language settings see relevant content.
+-->
