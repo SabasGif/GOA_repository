@@ -113,7 +113,7 @@ user_input = input("Please enter a password: ")
 if user_input != password:
     print("you can't do it anymore") and exit()
 else:
-    print("Password is correct!")
+    print("Password is correct! Now you can log in back!=)")
 
 
 
