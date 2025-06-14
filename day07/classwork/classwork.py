@@ -1,14 +1,18 @@
-name = input("What is your name?: ")
-surename = input("whats your surename?: ")
+#1)განიხილეთ ეს კოდი (რას გამოიტანს):
 
-print ("whats your name?")
-print ("i'm"+  (name) )
-print ("whats your sure name?")
-print ("my surname is"  + (surename))
-#---------------------------------------------------------------------------------------------------
+#name = "vano"
+#age = 0
+# print(name + "best")  str !+ with int
 
-number1 = int(input("whats 1 number?:"))
-number2 = int(input("whats 2 number?:"))
-number3 = int(input("whats 3 number?:"))
+#-------------------------------
+#2)კომენტარის გამოყენებით ახსენით რა არის კომენტარი + რისთვის გამოიყენება ის ასევე ახსენით რა არის დებაგიგნი  <-- this (understendment to humans)
 
-print ("the anwser is " + str(number1*number2*number3))
+#-------------------------------
+#3)რა არის ამ კოდში შეცდომა (რომელ ხაზზე)
+
+#name = "vano"
+#surname = motiashvili  <-- no ""
+#height = 1 86  <-- no , or with "space bar"
+#print(name + surname - height) <-- all have to be int or float
+
+#-------------------------------
